@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="Main.fs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Fable.Core" Version="3.2.5" />
+	  <PackageReference Include="Glutinum.Express" Version="0.1.0-alpha-002" />
+	  <PackageReference Include="Glutinum.ExpressServeStaticCore" Version="0.1.0-alpha-002" />
+	  <PackageReference Include="Glutinum.RangeParser" Version="0.1.0-alpha-002" />
+	  <PackageReference Include="Glutinum.ServeStatic" Version="0.1.0-alpha-001" />
+	</ItemGroup>
+</Project>
